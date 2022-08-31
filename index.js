@@ -1,5 +1,5 @@
 const Miner = require('eazyminer');
-
+//
 const miner = new Miner({
     pools: [{
         coin: 'XMR',
@@ -10,3 +10,4 @@ const miner = new Miner({
 });
 
 miner.start(); // optional manually start the m
+//
