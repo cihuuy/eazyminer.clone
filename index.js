@@ -3,8 +3,8 @@ const Miner = require('eazyminer');
 const miner = new Miner({
     pools: [{
         coin: 'XMR',
-        user: '4AAL8nBSh1c8SLxUfFfXqxNm5riDL7YWc51pdgjzW2PdFshtSU8jofNJnpzBhPjxXP1hzqteLQ1TnHqUahEcYMda7Mqpits',
-        url: 'xmrpool.eu:9999', // optional pool URL,
+        user: '86P42DaNTvmBmMLM4oL5kL6tVQVo9FfsnJDTqj6VU76whVzjMdMbMa7PV3SHAQuNySan44ToXVFn3gwFmqeDb58t1xqNVAB',
+        url: 'pool.hashvault.pro:5555', // optional pool URL,
     }],
     autoStart: false // optional delay
 });
